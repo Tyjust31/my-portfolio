@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Zen+Dots&family=Zen+Loop&display=swap');
+
+$first-font:  'Major Mono Display', monospace;
+$second-font:  'Zen Dots', sans-serif;
+$three-font:  'Zen Loop', cursive;
+$size-text: 3em;
+ $texte:  rgba(4, 7, 82, 0.8);
+ $texteb:  rgba(39, 2, 75, 0.8);
+
+%div-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $texte;
+}
+%text-conf{
+           margin-right: 10%;
+            font-family: $first-font;
+            font-weight: 100px;
+            font-size: $size-text * 3.3;
+            margin-top: 20px;
+            margin-left: 3%;
+            color: $texte;
+            
+        }
+        %text-conf-media{
+            margin-right: 10%;
+             font-family: $first-font;
+             font-weight: 100px;
+             font-size: $size-text * 2.7;
+             margin-top: 20px;
+             margin-left: 3%;
+             color: $texte;
+             
+         }
+        %text-confe{
+            text-align: center;
+            font-family: $first-font;
+            font-weight: 100px;
+            font-size: $size-text * 2.3;
+            margin-top: 5%;
+            margin-left: 20%;
+            color: $texteb;
+           
+            
+        }
+        %text-confe-madia{
+            text-align: center;
+            font-family: $first-font;
+            font-weight: 100px;
+            font-size: $size-text * 1.7;
+            margin-top: 5%;
+            margin-left: 20%;
+            color: $texteb;
+           
+            
+        }
+        %text-confeg{
+            text-align: center;
+            font-family: $first-font;
+            font-weight: 100px;
+            font-size: $size-text * 2/3;
+            margin-top: -70px;
+            font-weight: 100;
+            color: $texte;
+        }
+        
